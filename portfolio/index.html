@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es-en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ezequiel - Creative Technologist</title>
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="nav-brand">Professional profile</div>
+        <nav class="nav-desktop">
+          <a href="#">Home</a>
+          <a href="#works">Works</a>
+          <a href="#blog">Blog</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="menu-toggle" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="nav-mobile" id="mobileNav">
+        <a href="#">Home</a>
+        <a href="#works">Works</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>
+              Hi, I am <span class="highlight">Ezequiel</span>,<br />Creative
+              Technologist
+            </h1>
+
+
+           <!-- Call To Action -->
+            <a href="/styles/Assets/Ezequiel-Ramos.pdf" class="btn-primary" download>Download Resume</a>
+          </div>
+          <div class="hero-image">
+            <img
+              src="/styles/Assets/pic2.png"
+              alt="John - Creative Technologist"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About me -->
+    <section class="recent-posts" id="blog">
+      <div class="container">
+        <div class="section-header">
+          <h2>About me</h2>
+        </div>
+
+        <p>
+          My full name is Ezequiel Ramos. I am 25 years old. I am a
+          technology-oriented student with a solid command of digital tools, an
+          excellent teamwork ethic, and a strong focus on continuous learning. I
+          have experience in customer service, administrative tasks, and
+          technical support. I seek professional development in dynamic
+          environments where I can apply and continue expanding my technical and
+          operational skills.
+        </p>
+        <br />
+        <p>
+          I am currently continuing my studies. For my training, I have taken
+          the following courses:
+        </p>
+        <br />
+
+        <div class="posts-grid">
+          <article class="post-card">
+            <h3>Computer Systems Installer and Support</h3>
+            <div class="post-meta">
+              <span>March 2021 - 2022</span>
+            </div>
+            <p>
+              In this course, I learned how to understand software and repair
+              hardware; it was my first step into the world of technology.
+            </p>
+          </article>
+          <article class="post-card">
+            <h3>Graphic Design in Computer Systems</h3>
+            <div class="post-meta">
+              <span>March 2022 - 2023</span>
+            </div>
+            <p>
+              In the Graphic Design course, I learned how design works in
+              different areas of society and the importance of conveying
+              messages through digital products or services.
+            </p>
+          </article>
+          <article class="post-card">
+            <h3>Front End Web Development</h3>
+            <div class="post-meta">
+              <span>June 2025</span>
+            </div>
+            <p>
+              In this course, taken at CoderHouse, I am learning the basics and
+              fundamentals of front-end web development, gaining insight into
+              HTML, CSS, and JavaScript.
+            </p>
+          </article>
+          <article class="post-card">
+            <h3>UX/UI Design</h3>
+            <div class="post-meta">
+              <span>June 2025</span>
+            </div>
+            <p>
+              In the UX/UI design course, I'm learning to understand user needs
+              when interacting with digital services or products and how to
+              provide functional and engaging solutions with visual interfaces.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Works -->
+    <section class="featured-works" id="works">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="works-list">
+          <article class="work-item">
+            <div class="work-image">
+              <img src="/styles/Assets/nat.png" alt="Designing Dashboards" />
+            </div>
+            <div class="work-content">
+              <h3>Designing Web Interface</h3>
+              <div class="work-meta">
+                <span class="year">2025</span>
+                <span class="category">Web Interface</span>
+              </div>
+              <p>Project Summary</p>
+
+              <p>
+                This visual project was developed as part of a UI/UX design
+                practice using Figma. The goal was to create a clean and
+                engaging user interface that showcases different nature
+                destinations. The layout was structured to prioritize clarity,
+                visual hierarchy, and responsive adaptability.
+              </p>
+
+              <p>
+                Objectives: Practice UI composition and layout with a strong
+                visual hierarchy. Apply accessible design principles (color
+                contrast, spacing, typography). Integrate high-quality visuals
+                with supporting text. Simulate a realistic use case for a
+                digital product interface.
+              </p>
+
+              <!-- SECCIÓN EXPANDIBLE -->
+              <div class="work-details hidden">
+                <img
+                  src="/styles/Assets/prototipado.png"
+                  alt="Dashboard Preview"
+                />
+                <br />
+                <p>About Design Decisions</p>
+                <br />
+                <p>
+                  The color palette reflects a natural theme, using greens and
+                  earthy tones to evoke a connection with nature.
+                </p>
+                <p>Typography choices prioritize readability and balance.</p>
+                <p>
+                  A structured grid layout ensures clarity and consistency
+                  across content blocks.
+                </p>
+                <p>
+                  Images are used to visually represent each nature location,
+                  paired with informative text to guide the user.
+                </p>
+                <p>
+                  The overall interface maintains a soft, clean, and inviting
+                  visual style.
+                </p>
+                <br />
+                <img src="/styles/Assets/nat.png" alt="" />
+              </div>
+            </div>
+          </article>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+      <div class="container">
+        <div class="social-icons">
+            <a href="https://github.com/Ezequiel-Ramos52" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="http://instagram.com/Ezequiel_Sykes" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ezequiele988@gmail.com?subject=Portfolio Inquiry&body=Hi Ezequiel, I saw your portfolio and..." target="_blank" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="http://discord.com/users/Ezequiel_Sykes" target="_blank" aria-label="Discord">
+                <i class="fab fa-discord"></i>
+            </a>
+          
+            
+        </div>
+        <p class="copyright">Copyright ©2025 Ezequiel Ramos. All rights reserved</p>
+      </div>
+    </footer>
+
+    <script src="/script/script.js"></script>
+  </body>
+</html>
